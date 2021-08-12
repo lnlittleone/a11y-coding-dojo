@@ -1,1 +1,7 @@
 # a11y-coding-dojo
+
+This project is a simple coding dojo about Accessibility.
+The goal is to correct the code to make it much more accessible.
+It's for junior and senior devs, to improve or refresh our knowledge on this matter.
+
+The template of this project has been created with Webstorm boilerplate.

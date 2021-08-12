@@ -1,0 +1,149 @@
+:root {
+  --main-color: #23C08B;
+  --secondary-color: #E8FCF6;
+  --accent-color: #FF8341;
+  --accent-color-light: #FFDDCA;
+  --text-color: #2B2844;
+  --secondary-text-color: #9e9999;
+  --white: #FFF
+}
+
+
+/*----- Default CSS for website ----*/
+
+html {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color: var(--text-color);
+  background: linear-gradient(to bottom, #B1F2DE, #FFF) no-repeat;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 4rem;
+  color: var(--secondary-text-color);
+}
+
+h3 {
+  font-size: 2rem
+}
+
+p, li {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+
+strong, em {
+  color: #008da6;
+}
+
+.horizontal-centered-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.button {
+  background: var(--white);
+  border-radius: 5rem;
+  padding: 2rem 3rem;
+  border: none;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.button:hover {
+  background: var(--main-color);
+  box-shadow: #b8b5b5 0px 3px 5px;
+  color: var(--white);
+}
+
+/*----- Header ----*/
+
+.navbar-item {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.navbar-item:hover, .navbar-item:focus, .navbar-item:visited, .aside-navbar-link:hover, .aside-navbar-link:focus, .aside-navbar-link:visited {
+  font-weight: bold;
+  text-decoration: var(--main-color) underline 3px;
+}
+
+
+/*----- Main ----*/
+
+.main-section {
+  display: flex;
+  padding: 2rem;
+  margin: 2rem auto;
+
+}
+
+.section {
+  background: var(--white);
+  border-radius: 1.5rem;
+}
+
+.aside-section {
+  flex: 1;
+}
+
+.aside-navbar-link {
+  color: var(--secondary-text-color);
+  font-size: 1.6rem;
+  text-decoration: none;
+  padding : 2rem;
+}
+
+.article-section {
+  flex: 3;
+}
+
+/*----- Footer ----*/
+
+.footer {
+  background: var(--secondary-color);
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-columns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-size: 1.6rem;
+}
+
+.footer-link:hover {
+  font-weight: bold;
+}
